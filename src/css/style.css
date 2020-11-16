@@ -20,12 +20,54 @@
 
 /* header */
 header {
-  padding: 10px;
+  position: relative;
 }
 
 nav {
   font-size: 35px;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 25px;
+  color: #d3d3d3;
+  z-index: 1;
 }
 
+/* First page */
+.video-container {
+  position: relative;
+}
 
+.myVideo {
+  width: 100%;
+}
 
+.myV-src {
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.text-on-v {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+
+.myV-title {
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Cabin Condensed', sans-serif;
+  background: url(../../assets/images/background-text-03.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.position-relative {
+  position: relative;
+}
