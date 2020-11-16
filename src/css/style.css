@@ -1,1 +1,15 @@
 /* font-family: 'Cabin Condensed', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+}
+
+nav {
+  font-size: 35px;
+}
+
