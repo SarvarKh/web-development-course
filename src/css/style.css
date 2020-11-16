@@ -5,6 +5,20 @@
   padding: 0;
 }
 
+/* utilies */
+.orange {
+  color: #ec5242;
+}
+
+.special-grey {
+  color: #d3d3d3;
+}
+
+.special-black {
+  color: #272a31;
+}
+
+/* header */
 header {
   padding: 10px;
 }
@@ -12,4 +26,6 @@ header {
 nav {
   font-size: 35px;
 }
+
+
 
