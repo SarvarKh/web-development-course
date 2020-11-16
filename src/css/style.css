@@ -19,13 +19,17 @@
 }
 
 /* header */
+.first {
+  background: #f8f7f7;
+}
+
 header {
   position: relative;
 }
 
 nav {
   font-size: 35px;
-  position: fixed;
+  position: absolute;
   padding-top: 10px;
   padding-left: 25px;
   color: #d3d3d3;
@@ -51,7 +55,8 @@ nav {
 .text-on-v {
   position: absolute;
   bottom: 0;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
 }
 
 .myV-title {
@@ -70,4 +75,29 @@ nav {
 
 .position-relative {
   position: relative;
+  margin: 15px;
 }
+
+.bordered {
+  border: 2px solid #fff;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.destination {
+  padding-bottom: 50px;
+}
+
+.date {
+  color: #272a31;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+
