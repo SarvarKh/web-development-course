@@ -99,5 +99,63 @@ nav {
   padding-left: 10px;
 }
 
+/* Second-page */
+.second {
+  background: url(../../assets/images/middle-background.jpg);
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.second-title {
+  text-align: center;
+  margin-bottom: 35px;
+  padding-top: 30px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 5fr;
+  align-items: center;
+  width: 95%;
+}
+
+.card-name {
+  color: #ec5242;
+  font-weight: bolder;
+}
+
+.card > i {
+font-size: 24px;
+}
+
+.card-description {
+  font-size: 12px;
+}
+
+.button {
+  margin: 30px 0;
+}
+
+.btn {
+  background-color: #ec5242;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+
+
+
 
 
