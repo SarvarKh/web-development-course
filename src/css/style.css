@@ -424,4 +424,27 @@ font-size: 24px;
   .daumk {
     font-weight: 200;
   }
+
+  /* Footer */
+  footer {
+    padding: 30px 7%;
+  }
+
+  .flex-container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .com-logo {
+    width: 100px;
+    background: url("../../assets/images/cc-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .com-text {
+    font-weight: 200;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+  }
 }
