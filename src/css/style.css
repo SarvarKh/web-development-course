@@ -18,6 +18,10 @@
   color: #272a31;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* header */
 .first {
   background: #f8f7f7;
@@ -34,6 +38,10 @@ nav {
   padding-left: 25px;
   color: #d3d3d3;
   z-index: 1;
+}
+
+.visible-desktop {
+  display: none;
 }
 
 /* First page */
@@ -198,3 +206,45 @@ font-size: 24px;
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .hidden-desktop {
+    display: none;
+  }
+
+  .visible-desktop {
+    display: block;
+    background-color: red;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    padding: 0;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .top-nav {
+    font-size: 12px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .top-nav .flex-container {
+    padding-right: 50px;
+    padding: 5px 0;
+  }
+
+  .flex-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #272a31;
+  }
+
+  .flex-container li {
+    margin-right: 20px;
+  }
+}
