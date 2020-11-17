@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+.hidden-mobile {
+  display: none;
+}
+
 /* header */
 .first {
   background: #f8f7f7;
@@ -31,13 +35,18 @@ header {
   position: relative;
 }
 
-nav {
-  font-size: 35px;
+.nav {
+  font-size: 25px;
   position: absolute;
   padding-top: 10px;
   padding-left: 25px;
-  color: #d3d3d3;
+  color: #272a31;
   z-index: 1;
+}
+
+.nav:hover {
+  opacity: 0.8;
+  color: #ec5242;
 }
 
 .visible-desktop {
@@ -59,20 +68,28 @@ nav {
   z-index: -2;
 }
 
+.gradient {
+  background: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
 .text-on-v {
   position: absolute;
-  top: 20%;
+  top: 18%;
   padding-bottom: 10px;
   padding-left: 15px;
 }
 
 .myV-title {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: 'Lato', sans-serif;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-family: 'Cabin Condensed', sans-serif;
   background: url(../../assets/images/background-text-03.jpg) no-repeat;
@@ -82,29 +99,31 @@ nav {
 
 .position-relative {
   position: relative;
-  margin: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .bordered {
   border: 2px solid #fff;
   padding: 10px;
-  font-size: 14px;
+  font-size: 10px;
   font-family: 'Lato', sans-serif;
 }
 
 .destination {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   font-family: 'Lato', sans-serif;
+  padding-left: 15px;
+  font-size: 12px;
 }
 
 .date {
   color: #272a31;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bolder;
   font-family: 'Lato', sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 10px;
 }
 
 /* Second-section */
@@ -202,12 +221,20 @@ font-size: 24px;
 
 .more-dropdown {
   border: 2px solid #d3d3d3;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  font-size: 12px;
+}
+
+.more-dropdown:hover {
+  background-color: lightgrey;
+}
+
+.fa-caret-down {
+  margin-left: 5px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* header */
   .hidden-desktop {
     display: none;
   }
@@ -220,10 +247,15 @@ font-size: 24px;
     padding: 0;
   }
 
+  .visible-mobile {
+    display: block;
+  }
+
   a {
     text-decoration: none;
   }
 
+  /* header */
   .top-nav {
     font-size: 12px;
     width: 100%;
@@ -329,10 +361,6 @@ font-size: 24px;
 
   .gradient {
     background: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
   }
 
   .myV-title {
@@ -352,12 +380,13 @@ font-size: 24px;
   .second-container {
     flex-direction: row;
     margin: 0 7%;
+    align-items: baseline;
   }
 
   .card {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    min-height: 220px;
     text-align: center;
   }
 
@@ -370,6 +399,7 @@ font-size: 24px;
     font-size: 12px;
     color: #d3d3d3;
     text-decoration: underline;
+    margin-bottom: 0;
   }
 
   /* Third section | Featured Speakers */
@@ -440,6 +470,7 @@ font-size: 24px;
     background: url("../../assets/images/cc-logo.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-right: 10px;
   }
 
   .com-text {
