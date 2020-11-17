@@ -161,7 +161,7 @@ header {
 }
 
 .card > i {
-font-size: 24px;
+  font-size: 24px;
 }
 
 .card-description {
@@ -180,7 +180,7 @@ font-size: 24px;
   display: inline-block;
 }
 
-/* Third section*/
+/* Third section */
 .third {
   font-family: 'Lato', sans-serif;
   padding: 15px;
@@ -310,12 +310,21 @@ font-size: 24px;
   .bottom-nav .flex-container {
     justify-content: space-between;
   }
-  
+
   .flex-container-internal {
     display: flex;
     justify-content: right;
     list-style-type: none;
     color: #272a31;
+  }
+
+  .red-border {
+    border: 3px solid #ec5242;
+    padding: 3px;
+  }
+
+  #red-border {
+    color: #ec5242;
   }
 
   .flex-container-internal a {
@@ -358,7 +367,7 @@ font-size: 24px;
     width: 550px;
     border: 2px solid #fff;
   }
-  
+
   .myVideo {
     width: 100%;
   }
@@ -376,7 +385,7 @@ font-size: 24px;
   .myV-title {
     font-size: 1.5rem;
   }
-  
+
   .title {
     font-size: 3rem;
     width: 500px;
