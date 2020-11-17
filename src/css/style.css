@@ -61,7 +61,7 @@ nav {
 
 .text-on-v {
   position: absolute;
-  bottom: 0;
+  top: 20%;
   padding-bottom: 10px;
   padding-left: 15px;
 }
