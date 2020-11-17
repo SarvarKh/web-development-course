@@ -37,6 +37,7 @@ header {
   display: none;
 }
 
+
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
     display: none;
@@ -152,7 +153,34 @@ header {
     margin-right: 10px;
   }
 
+  /* First section */
+  .first {
+    font-family: 'Lato', sans-serif;
+  }
 
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  table tr:hover {
+    background-color: #ddd;
+  }
+
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f1f1f1;
+    color: black;
+    font-weight: 400;
+  }
 }
 
 
