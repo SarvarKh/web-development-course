@@ -378,5 +378,50 @@ font-size: 24px;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     margin: 0 7%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* Forth section */
+  .forth {
+    background-color: #272a31;
+    color: #d3d3d3;
+    font-size: 1.5rem;
+    padding: 20px 15%;
+  }
+
+  .forth-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+
+  .forth-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-item {
+    text-align: center;
+    width: 120px;
+  }
+
+  .mozilla {
+    font-weight: 900;
+  }
+
+  .google {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+  }
+
+  .naver {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .daumk {
+    font-weight: 200;
   }
 }
