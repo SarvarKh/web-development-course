@@ -207,13 +207,13 @@ font-size: 24px;
 }
 
 @media only screen and (min-width: 768px) {
+  /* header */
   .hidden-desktop {
     display: none;
   }
 
   .visible-desktop {
     display: block;
-    background-color: red;
     width: 100%;
     font-family: 'Lato', sans-serif;
     position: relative;
@@ -221,7 +221,7 @@ font-size: 24px;
   }
 
   a {
-    color: #fff;
+    text-decoration: none;
   }
 
   .top-nav {
@@ -231,20 +231,67 @@ font-size: 24px;
     top: 0;
   }
 
-  .top-nav .flex-container {
-    padding-right: 50px;
-    padding: 5px 0;
-  }
-
   .flex-container {
     list-style-type: none;
     display: flex;
-    justify-content: right;
     align-items: center;
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  .flex-container a {
+    color: #fff;
+  }
+
+  .top-nav .flex-container {
     background-color: #272a31;
+    justify-content: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .flex-container li {
     margin-right: 20px;
+  }
+
+  .bottom-nav {
+    position: absolute;
+    top: 30px;
+    font-size: 16px;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .bottom-nav .flex-container {
+    justify-content: space-between;
+  }
+  
+  .flex-container-internal {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    color: #272a31;
+  }
+
+  .flex-container-internal a {
+    color: #272a31;
+  }
+
+  .brand {
+    display: flex;
+    padding: 5px 0;
+    color: #272a31;
+    font-family: 'Cabin Condensed', sans-serif;
+    cursor: pointer;
+  }
+
+  .logo {
+    background: url(../../assets/images/logo-summit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 45px;
+    margin-right: 10px;
   }
 }
