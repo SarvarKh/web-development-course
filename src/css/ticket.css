@@ -37,6 +37,76 @@ header {
   display: none;
 }
 
+/* First section */
+.container {
+  font-size: 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+.step-h {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.step {
+  display: list-item;
+  list-style-type: disc;
+  color: #ec5242;
+  width: 70px;
+}
+
+.first {
+  font-family: 'Lato', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-form {
+  font-size: 10px;
+  border: 3px solid;
+  border-image: url(../../assets/images/ticket-border.PNG) 10% repeat;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #cecece;
+  color: black;
+  font-weight: 400;
+}
+
+.shadow-bottom {
+  box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
@@ -154,33 +224,7 @@ header {
   }
 
   /* First section */
-  .first {
-    font-family: 'Lato', sans-serif;
-  }
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  table td,
-  table th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-
-  table tr:hover {
-    background-color: #ddd;
-  }
-
-  table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #f1f1f1;
-    color: black;
-    font-weight: 400;
-  }
 }
 
 
