@@ -256,8 +256,21 @@ font-size: 24px;
   }
 
   /* header */
+  .wrapper {
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    top: 60px;
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+
   .top-nav {
-    font-size: 12px;
+    font-size: 10px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -276,10 +289,10 @@ font-size: 24px;
   }
 
   .top-nav .flex-container {
-    background-color: #272a31;
+    background-color: #3e4044;
     justify-content: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .flex-container li {
@@ -288,8 +301,8 @@ font-size: 24px;
 
   .bottom-nav {
     position: absolute;
-    top: 30px;
-    font-size: 16px;
+    top: 22px;
+    font-size: 12px;
     background-color: #fff;
     width: 100%;
   }
@@ -328,16 +341,6 @@ font-size: 24px;
   }
 
   /* First page */
-  .wrapper {
-    position: relative;
-  }
-
-  .first {
-    position: absolute;
-    width: 100%;
-    top: 77px;
-  }
-
   .text-on-v {
     padding-bottom: 12%;
     padding-left: 7%;
