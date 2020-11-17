@@ -56,7 +56,7 @@ nav {
 .myV-src {
   min-width: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
 }
 
 .text-on-v {
@@ -307,5 +307,23 @@ font-size: 24px;
     margin-left: 5%;
     width: 550px;
     border: none;
+  }
+  
+  .myVideo {
+    width: 100%;
+  }
+
+  .myV-src {
+    min-width: auto;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .gradient {
+    background: red;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
