@@ -94,6 +94,7 @@ nav {
 
 .destination {
   padding-bottom: 50px;
+  font-family: 'Lato', sans-serif;
 }
 
 .date {
@@ -300,13 +301,20 @@ font-size: 24px;
     padding-left: 7%;
   }
 
-  .bordered {
+  .position-relative {
+    top: 60%;
     position: absolute;
-    top: -80%;
-    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .destination {
+    padding-left: 7%;
+  }
+
+  .bordered {
+    background-color: rgba(255, 255, 255, 0.1);
     margin-left: 5%;
     width: 550px;
-    border: none;
+    border: 2px solid #fff;
   }
   
   .myVideo {
@@ -320,10 +328,19 @@ font-size: 24px;
   }
 
   .gradient {
-    background: red;
-    width: 100px;
-    height: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+    bottom: 0;
+  }
+
+  .myV-title {
+    font-size: 1.5rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    width: 500px;
   }
 }
