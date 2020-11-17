@@ -328,6 +328,16 @@ font-size: 24px;
   }
 
   /* First page */
+  .wrapper {
+    position: relative;
+  }
+
+  .first {
+    position: absolute;
+    width: 100%;
+    top: 77px;
+  }
+
   .text-on-v {
     padding-bottom: 12%;
     padding-left: 7%;
@@ -338,13 +348,13 @@ font-size: 24px;
     position: absolute;
   }
 
-  .destination {
-    padding-left: 7%;
+  .position-relative {
+    padding-left: 5%;
   }
 
   .bordered {
     background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 5%;
+    margin-left: 3%;
     width: 550px;
     border: 2px solid #fff;
   }
