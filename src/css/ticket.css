@@ -107,6 +107,26 @@ table th {
   box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
+.drop-down {
+  margin: 0 auto;
+  width: max-content;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.fa-caret-down {
+  position: absolute;
+  bottom: 4px;
+  padding: 10px;
+  width: cover;
+  background: url(../../assets/images/rhombus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-weight: 900;
+}
+
 
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
