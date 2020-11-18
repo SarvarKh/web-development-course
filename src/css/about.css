@@ -424,11 +424,8 @@ footer {
   }
   
   .summit-text {
-    height: 30%;
     font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    top: 5%;
+    top: 20%;
     width: 100%;
   }
 
@@ -439,20 +436,17 @@ footer {
     padding: 15px 20px;
   }
 
-  .button {
-    margin-bottom: 20px;
+  /* Second page */
+  .title {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
   }
-
-  .btn {
-    font-size: 14px;
-  }
-
-  .summit-text {
-    top: 20%;
-  }
-
-  .title-orange {
-    font-size: 48px;
+  
+  .description {
+    margin: 25px auto;
+    width: 300px;
+    font-size: 12px;
   }
 }
 
