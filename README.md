@@ -11,21 +11,21 @@ This is the capstone project of the HTML & CSS course of the Microverse
 
 Main Mobile view
 
-![screenshot](assets/sreenshots/main_sm.jpg)
+![screenshot](assets/sreenshots/main_sm.jpg?raw=true)
 
 
 Main Desktop (lg) view
 
-![screenshot](assets/sreenshots/main_lg.jpg)
+![screenshot](assets/sreenshots/main_lg.jpg?raw=true)
 
 Ticket Mobile view
 
-![screenshot](assets/sreenshots/ticket_sm.jpg)
+![screenshot](assets/sreenshots/ticket_sm.jpg?raw=true)
 
 
 Ticket Desktop (lg) view
 
-![screenshot](assets/sreenshots/ticket_lg.jpg)
+![screenshot](assets/sreenshots/ticket_lg.jpg?raw=true)
 
 Additional description about the project and its features.
 
