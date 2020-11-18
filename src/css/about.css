@@ -409,8 +409,34 @@ footer {
   }
 
   /* First section */
+  .wrapper {
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    top: 60px;
+  }
+
   .summit-img {
     background-size: 100% auto;
+    height: 500px;
+  }
+  
+  .summit-text {
+    height: 30%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+    width: 100%;
+  }
+
+  .bordered-description {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 12px;
+    padding: 15px 20px;
   }
 
   .button {
@@ -422,7 +448,7 @@ footer {
   }
 
   .summit-text {
-    top: 10%;
+    top: 20%;
   }
 
   .title-orange {
