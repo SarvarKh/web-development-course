@@ -195,7 +195,6 @@ header {
 .cover-text {
   position: absolute;
   height: 20%;
-  font-size: 12px;
   display: flex;
   flex-direction: column;
   top: 40%;
@@ -283,14 +282,6 @@ footer {
   font-size: 10px;
   font-family: 'Lato', sans-serif;
 }
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
@@ -409,24 +400,19 @@ footer {
   }
 
   /* First section */
-  .wrapper {
-    position: relative;
-  }
-
-  .container {
-    position: absolute;
-    top: 60px;
-  }
-
   .summit-img {
     background-size: 100% auto;
     height: 500px;
   }
-  
+
   .summit-text {
     font-size: 12px;
     top: 20%;
     width: 100%;
+  }
+
+  .title-orange {
+    font-size: 48px;
   }
 
   .bordered-description {
@@ -442,7 +428,7 @@ footer {
     font-weight: 600;
     font-size: 24px;
   }
-  
+
   .description {
     margin: 25px auto;
     width: 300px;
@@ -471,5 +457,3 @@ footer {
     margin: 0 auto;
   }
 }
-
-

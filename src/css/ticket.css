@@ -121,7 +121,6 @@ table th {
   position: absolute;
   bottom: 4px;
   padding: 10px;
-  width: cover;
   background: url(../../assets/images/rhombus.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -288,7 +287,7 @@ table th {
     width: 350px;
     margin: 5px 0;
   }
-  
+
   .step {
     width: 40px;
     margin-right: 5px;
@@ -341,5 +340,3 @@ table th {
     font-family: 'Lato', sans-serif;
   }
 }
-
-
