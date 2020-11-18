@@ -4,29 +4,28 @@
 # Web development course 
 This is the capstone project of the HTML & CSS course of the Microverse
 
+**The project contains the following pages:**
+- main (index.html);
+- ticket (~.html);
+- about (~.html);
 
-Mobile view
+Main Mobile view
 
-![screenshot](assets/screenshots/mobile.png)
-
-
-
-Tablet view
-
-![screenshot](assets/screenshots/tablet.png)
+![screenshot](assets/sreenshots/main_sm.jpg)
 
 
+Main Desktop (lg) view
 
-Laptop (sm) view
+![screenshot](assets/sreenshots/main_lg.jpg)
 
-![screenshot](assets/screenshots/laptop.png)
+Ticket Mobile view
+
+![screenshot](assets/sreenshots/ticket_sm.jpg)
 
 
+Ticket Desktop (lg) view
 
-Desktop (lg) view
-
-![screenshot](assets/screenshots/desktop.png)
-
+![screenshot](assets/sreenshots/ticket_lg.jpg)
 
 Additional description about the project and its features.
 
@@ -37,7 +36,7 @@ Additional description about the project and its features.
 - Linters
 
 ## Live Demo
-[Click here](https://htmlpreview.github.io/?https://github.com/SarvarKh/newsweek-clone/blob/framework/index.html)
+[Main page](https://htmlpreview.github.io/?https://github.com/SarvarKh/newsweek-clone/blob/framework/index.html)
 
 ## Getting Started
 
