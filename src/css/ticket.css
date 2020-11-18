@@ -196,6 +196,7 @@ table th {
   .container {
     position: absolute;
     top: 60px;
+    width: 100%;
   }
 
   a:hover {
@@ -283,7 +284,62 @@ table th {
   }
 
   /* First section */
+  .step-h {
+    width: 350px;
+    margin: 5px 0;
+  }
+  
+  .step {
+    width: 40px;
+    margin-right: 5px;
+  }
 
+  .first-form {
+    font-size: 10px;
+    min-width: 450px;
+    margin: 20px 0;
+  }
+
+  .second-form {
+    margin: 20px 0;
+  }
+
+  .checkbox {
+    min-width: 450px;
+  }
+
+  .button {
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px 7%;
+    border-top: 2px solid #d3d3d3;
+  }
+
+  .flex-container-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .com-logo {
+    width: 150px;
+    background: url("../../assets/images/logo-summit-03.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 10px;
+  }
+
+  .com-text {
+    font-weight: 200;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+  }
 }
 
 
