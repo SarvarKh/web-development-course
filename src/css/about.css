@@ -173,7 +173,7 @@ header {
   background-size: 100% auto;
   min-height: 200px;
   position: relative;
-  width: 450px;
+  width: 300px;
 }
 
 .summit-2020 {
@@ -183,7 +183,7 @@ header {
   background-size: 100% auto;
   min-height: 200px;
   position: relative;
-  width: 450px;
+  width: 300px;
 }
 
 .gradient-orange {
@@ -436,7 +436,7 @@ footer {
     padding: 15px 20px;
   }
 
-  /* Second page */
+  /* Second section */
   .title {
     padding-top: 30px;
     font-weight: 600;
@@ -447,6 +447,28 @@ footer {
     margin: 25px auto;
     width: 300px;
     font-size: 12px;
+  }
+
+  /* Third section */
+  .third {
+    padding-bottom: 50px;
+  }
+
+  .pic-container {
+    width: max-content;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #3e4044;
+    color: #fff;
+  }
+
+  .flex-container-footer {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
   }
 }
 
