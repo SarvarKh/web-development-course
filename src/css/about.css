@@ -104,22 +104,34 @@ header {
   margin-top: 5px;
 }
 
+/* Second section */
+.second {
+  text-align: center;
+  font-size: 10px;
+  border-bottom: 2px solid #d3d3d38c;
+  padding-bottom: 20px;
+}
 
+.title {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
 
+.description {
+  margin: 15px;
+}
 
-
-
-
-
-
-
-
-.brand {
+.brand-border {
+  width: max-content;
+  margin: 0 auto;
+  border: 2px solid #d3d3d38c;
   display: flex;
-  padding: 5px 0;
+  padding: 20px 45px;
   color: #272a31;
   font-family: 'Cabin Condensed', sans-serif;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .logo {
@@ -131,6 +143,20 @@ header {
   width: 45px;
   margin-right: 10px;
 }
+
+.brand-name-info {
+  font-size: 8px;
+  color: #3e4044;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 
 
 
