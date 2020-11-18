@@ -42,6 +42,24 @@ header {
   text-align: center;
 }
 
+.brand {
+  display: flex;
+  padding: 5px 0;
+  color: #272a31;
+  font-family: 'Cabin Condensed', sans-serif;
+  cursor: pointer;
+}
+
+.logo {
+  background: url(../../assets/images/logo-summit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 45px;
+  margin-right: 10px;
+}
+
 
 
 .button {
