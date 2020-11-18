@@ -209,7 +209,55 @@ header {
 .small-text {
   font-size: 10px;
   margin-top: 5px;
-}  
+}
+
+/* Forth Section */
+.forth {
+  background-color: #272a31;
+  color: #d3d3d3;
+  font-size: 14px;
+  padding: 20px 5%;
+}
+
+.forth-title {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.forth-container {
+  width: 100%;
+}
+
+.forth-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  text-align: center;
+}
+
+.mozilla {
+  font-weight: 900;
+}
+
+.google {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.naver {
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+}
+
+.daumk {
+  font-weight: 200;
+}
 
 /* Footer */
 footer {
