@@ -409,7 +409,9 @@ footer {
   }
 
   /* First section */
-  
+  .summit-img {
+    background-size: 100% auto;
+  }
 
   .button {
     margin-bottom: 20px;
@@ -417,6 +419,14 @@ footer {
 
   .btn {
     font-size: 14px;
+  }
+
+  .summit-text {
+    top: 10%;
+  }
+
+  .title-orange {
+    font-size: 48px;
   }
 }
 
