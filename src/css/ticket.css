@@ -201,6 +201,31 @@ table th {
   color: #fff;
 }
 
+/* Footer */
+footer {
+  padding: 15px 7%;
+  border-top: 2px solid #d3d3d3;
+}
+
+.flex-container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.com-logo {
+  width: 150px;
+  background: url("../../assets/images/logo-summit-03.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.com-text {
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+  font-size: 8px;
+}
+
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
     display: none;
@@ -385,31 +410,6 @@ table th {
 
   .btn {
     font-size: 16px;
-  }
-  
-  /* Footer */
-  footer {
-    padding: 30px 7%;
-    border-top: 2px solid #d3d3d3;
-  }
-
-  .flex-container-footer {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .com-logo {
-    width: 150px;
-    background: url("../../assets/images/logo-summit-03.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-right: 10px;
-  }
-
-  .com-text {
-    font-weight: 200;
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
   }
 }
 
