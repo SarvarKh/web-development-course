@@ -399,24 +399,38 @@ header {
   }
 
   /* First page */
-  .text-on-v {
-    padding-bottom: 12%;
+  .text-container {
     padding-left: 7%;
+  }
+
+  .text-on-v {
+    padding-bottom: 0;
+  }
+
+  .destination {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 1.5rem;
   }
 
   .position-relative {
     top: 60%;
     position: absolute;
-    padding-left: 5%;
   }
 
   .bordered {
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 3%;
     width: 550px;
-    border: 2px solid #fff;
+    margin-top: 10px;
+    font-size: 14px;
   }
 
+  .position-relative {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  
   .myVideo {
     width: 100%;
   }
@@ -572,10 +586,6 @@ header {
 
   .position-relative {
     top: 70%;
-  }
-
-  .bordered {
-    font-size: 14px;
   }
 
   .card {
