@@ -560,6 +560,14 @@ footer {
     display: none;
   }
 
+  .more-visible {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin: 0 7%;
+    font-family: 'Lato', sans-serif;
+  }
+
   /* Forth section */
   .forth {
     background-color: #272a31;
