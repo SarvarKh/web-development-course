@@ -223,6 +223,10 @@ header {
   padding: 15px;
 }
 
+.biggier-title {
+  font-size: 22px;
+}
+
 .third-card {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -241,7 +245,7 @@ header {
 
 .author {
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   font-family: 'Cabin Condensed', sans-serif;
 }
