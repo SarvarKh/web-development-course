@@ -300,10 +300,6 @@ header {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show-flex {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 20px;
-  margin: 0 7%;
-  font-family: 'Lato', sans-serif;
 } 
 
 /* Footer */
@@ -553,6 +549,18 @@ footer {
     grid-column-gap: 20px;
     margin: 0 7%;
     font-family: 'Lato', sans-serif;
+  }
+
+  .show-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin: 0 7%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #more-btn-hidden {
+    display: none;
   }
 
   /* Forth section */
