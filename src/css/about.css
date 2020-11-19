@@ -507,3 +507,31 @@ footer {
     margin: 0 auto;
   }
 }
+
+@media only screen and (min-width: 1140px) {
+  .top-nav {
+    font-size: 16px;
+  }
+
+  .bottom-nav {
+    font-size: 20px;
+  }
+
+  .title-orange {
+    font-size: 80px;
+    padding: 30px 0;
+  }
+  
+  .summit-img {
+    background-size: 100% auto;
+    min-height: 700px;
+  }
+
+  .bordered-description {
+    font-size: 16px;
+  }
+
+  .contact {
+    font-size: 16px;
+  }
+}
