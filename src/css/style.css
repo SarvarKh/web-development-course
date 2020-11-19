@@ -45,7 +45,7 @@ header {
 }
 
 .nav:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   color: #ec5242;
 }
 
@@ -58,10 +58,6 @@ header {
   color: white;
   border: none;
   cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
 }
 
 .dropdown {
