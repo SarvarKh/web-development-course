@@ -299,18 +299,28 @@ header {
 
   .container {
     position: absolute;
-    top: 60px;
+    top: 100px;
   }
 
   a:hover {
     opacity: 0.7;
   }
-
-  .top-nav {
-    font-size: 10px;
+  
+  .nav-desktop {
+    position: fixed;
+    z-index: 2;
     width: 100%;
+  }
+
+  .nav-container {
     position: absolute;
     top: 0;
+    width: 100%;
+  }
+
+  .top-nav {
+    font-size: 16px;
+    width: 100%;
   }
 
   .flex-container {
@@ -328,8 +338,8 @@ header {
   .top-nav .flex-container {
     background-color: #3e4044;
     justify-content: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .flex-container li {
@@ -337,9 +347,7 @@ header {
   }
 
   .bottom-nav {
-    position: absolute;
-    top: 22px;
-    font-size: 12px;
+    font-size: 20px;
     background-color: #fff;
     width: 100%;
   }
