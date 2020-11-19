@@ -408,27 +408,22 @@ header {
   }
 
   .destination {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .date {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .position-relative {
     top: 60%;
     position: absolute;
+    margin-bottom: 0;
   }
 
   .bordered {
     width: 550px;
-    margin-top: 10px;
     font-size: 14px;
-  }
-
-  .position-relative {
-    margin-bottom: 0;
-    margin-top: 10px;
   }
   
   .myVideo {
@@ -579,6 +574,10 @@ header {
     font-size: 44px;
   }
 
+  .bordered {
+    font-size: 16px;
+  }
+
   .title {
     font-size: 64px;
     min-width: 800px;
@@ -590,5 +589,39 @@ header {
 
   .card {
     min-height: 180px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  /* First page */
+  .text-container {
+    padding-left: 14%;
+  }
+
+  .text-on-v {
+    padding-bottom: 0;
+  }
+
+  .destination {
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .position-relative {
+    top: 65%;
+  }
+
+  .bordered {
+    width: 800px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .position-relative {
+    margin-bottom: 0;
+    margin-top: 10px;
   }
 }
