@@ -348,19 +348,29 @@ footer {
 
   .container {
     position: absolute;
-    top: 60px;
+    top: 40px;
     width: 100%;
   }
 
   a:hover {
     opacity: 0.7;
   }
-
-  .top-nav {
-    font-size: 10px;
+  
+  .nav-desktop {
+    position: fixed;
+    z-index: 2;
     width: 100%;
+  }
+
+  .nav-container {
     position: absolute;
     top: 0;
+    width: 100%;
+  }
+
+  .top-nav {
+    font-size: 14px;
+    width: 100%;
   }
 
   .flex-container {
@@ -387,9 +397,7 @@ footer {
   }
 
   .bottom-nav {
-    position: absolute;
-    top: 22px;
-    font-size: 12px;
+    font-size: 14px;
     background-color: #fff;
     width: 100%;
   }
@@ -424,6 +432,11 @@ footer {
     color: #272a31;
     font-family: 'Cabin Condensed', sans-serif;
     cursor: pointer;
+  }
+
+  .brand a {
+    display: flex;
+    color: #272a31;
   }
 
   .logo {
