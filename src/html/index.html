@@ -10,12 +10,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/ea61045147.js" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script> 
 </head>
 <body>
   <div class="wrapper">
     <header>
       <nav class="hidden-desktop nav">
-        <i class="fas fa-bars"></i>
+        <div class="dropdown">
+          <i class="fas fa-bars dropbtn" onclick="myFunction()"></i>
+          <button >Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="about.html">About</a>
+            <a href="#program">Program</a>
+            <a href="ticket.html">Join</a>
+            <a href="#partner">Sponsor</a>
+            <a href="ticket.html">Ticket</a>
+            <a href="#speaker">News</a>
+          </div>
+        </div> 
       </nav>
       <nav class="hidden-mobile visible-mobile nav-desktop">
         <div class="top-nav">
@@ -50,11 +62,13 @@
         <div class="bottom-nav">
           <div class="flex-container">
             <div class="brand">
-              <div class="logo"></div>
-              <div class="brand-name">
-                Full Stack Pro 2021<br>
-                Web Development Course
-              </div>
+              <a href="index.html">
+                <div class="logo"></div>
+                <div class="brand-name">
+                  Full Stack Pro 2021<br>
+                  Web Development Course
+                </div>
+              </a>
             </div>
             <ul class="flex-container-internal">
               <li>
@@ -63,7 +77,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#program">
                   Program
                 </a>
               </li>
@@ -83,12 +97,12 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#speaker">
                   News
                 </a>
               </li>
               <li>
-                <a href="#" class="red-border" id="red-border">
+                <a href="ticket.html" class="red-border" id="red-border">
                   FSP Compaign
                 </a>
               </li>
@@ -124,7 +138,7 @@
       </section>
 
       <!-- Second Section -->
-      <div class="second">
+      <div class="second" id="program">
         <h4 class="centered-title">Main Program</h4>
         <div class="second-container">
           <div class="card">
@@ -160,7 +174,7 @@
       </div>
 
       <!-- Third Section -->
-      <div class="third">
+      <div class="third" id="speaker">
         <h4 class="centered-title">FTP Featured Speakers</h4>
         <div class="third-container">
           <div class="third-card">
@@ -266,7 +280,7 @@
       </div>
 
       <!-- Forth section -->
-      <div class="forth hidden-mobile visible-mobile">
+      <div class="forth hidden-mobile visible-mobile" id="partner">
         <h4 class="forth-title">Partner</h4>
         <div class="forth-container">
           <div class="forth-flex">
