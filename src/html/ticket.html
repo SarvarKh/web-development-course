@@ -15,84 +15,98 @@
   <div class="wrapper">
     <header>
       <nav class="hidden-desktop nav">
-        <i class="fas fa-bars"></i>
+        <div class="dropdown">
+          <i class="fas fa-bars dropbtn" onclick="myFunction()"></i>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="about.html">About</a>
+            <a href="#program">Program</a>
+            <a href="ticket.html">Join</a>
+            <a href="index.html">Sponsor</a>
+            <a href="ticket.html">Ticket</a>
+            <a href="index.html">News</a>
+          </div>
+        </div> 
       </nav>
       <nav class="hidden-mobile visible-mobile nav-desktop">
-        <div class="top-nav">
-          <ul class="flex-container">
-            <li>
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                English
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                My Page
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Logout
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="bottom-nav">
-          <div class="flex-container">
-            <div class="brand">
-              <div class="logo"></div>
-              <div class="brand-name">
-                Full Stack Pro 2021<br>
-                Web Development Course
-              </div>
-            </div>
-            <ul class="flex-container-internal">
+        <div class="nav-container">
+          <div class="top-nav">
+            <ul class="flex-container">
               <li>
-                <a href="about.html">
-                  About
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  Program
+                  <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  Join
+                  English
                 </a>
               </li>
               <li>
                 <a href="#">
-                  Sponsor
-                </a>
-              </li>
-              <li>
-                <a href="ticket.html">
-                  Ticket
+                  My Page
                 </a>
               </li>
               <li>
                 <a href="#">
-                  News
-                </a>
-              </li>
-              <li>
-                <a href="#" class="red-border" id="red-border">
-                  FSP Compaign
+                  Logout
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="bottom-nav">
+            <div class="flex-container">
+              <div class="brand">
+                <a href="index.html">
+                  <div class="logo"></div>
+                  <div class="brand-name">
+                    Full Stack Pro 2021<br>
+                    Web Development Course
+                  </div>
+                </a>
+              </div>
+              <ul class="flex-container-internal">
+                <li>
+                  <a href="about.html">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#program">
+                    Program
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Join
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html">
+                    Sponsor
+                  </a>
+                </li>
+                <li>
+                  <a href="ticket.html">
+                    Ticket
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html">
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a href="ticket.html" class="red-border" id="red-border">
+                    FSP Compaign
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -100,7 +114,7 @@
 
     <div class="container">
       <!-- First section -->
-      <section class="first">
+      <section class="first" id="program">
         <h3 class="title">Select program</h3>
         <div class="step-h">
           <div class="step">STEP 1</div>
@@ -259,7 +273,9 @@
         </div>
       </footer>
     </div>
-
   </div>
+  
+  <!-- JS -->
+  <script src="../JavaScript/script.js"></script>
 </body>
 </html>
