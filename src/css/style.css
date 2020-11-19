@@ -299,7 +299,7 @@ header {
 
   .container {
     position: absolute;
-    top: 100px;
+    top: 80px;
   }
 
   a:hover {
@@ -319,7 +319,7 @@ header {
   }
 
   .top-nav {
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
   }
 
@@ -347,7 +347,7 @@ header {
   }
 
   .bottom-nav {
-    font-size: 20px;
+    font-size: 14px;
     background-color: #fff;
     width: 100%;
   }
@@ -549,6 +549,18 @@ header {
 }
 
 @media only screen and (min-width: 992px) {
+  .container {
+    top: 100px;
+  }
+
+  .top-nav {
+    font-size: 16px;
+  }
+
+  .bottom-nav {
+    font-size: 20px;
+  }
+
   .myV-title {
     font-size: 44px;
   }
