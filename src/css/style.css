@@ -71,7 +71,7 @@ header {
   background-color: #f1f1f1f8;
   font-size: 12px;
   min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
 
@@ -87,7 +87,7 @@ header {
 }
 
 .show {
-  display:block;
+  display: block;
 }
 
 /* First page */
@@ -287,20 +287,18 @@ header {
   margin: 0 auto 20px auto;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn-more:hover, .dropbtn-more:focus {
+.dropbtn-more:hover,
+.dropbtn-more:focus {
   background-color: #3e4044;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content-more {
   display: none;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show-flex {
   display: grid;
-} 
+}
 
 /* Footer */
 footer {
@@ -328,7 +326,6 @@ footer {
   font-size: 10px;
   font-family: 'Lato', sans-serif;
 }
-
 
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
@@ -364,7 +361,7 @@ footer {
   a:hover {
     opacity: 0.7;
   }
-  
+
   .nav-desktop {
     position: fixed;
     z-index: 2;
@@ -484,7 +481,7 @@ footer {
     width: 550px;
     font-size: 14px;
   }
-  
+
   .myVideo {
     width: 100%;
   }
@@ -663,16 +660,13 @@ footer {
 
   .position-relative {
     top: 65%;
+    margin-bottom: 0;
+    margin-top: 10px;
   }
 
   .bordered {
     width: 800px;
     margin-top: 10px;
     font-size: 18px;
-  }
-
-  .position-relative {
-    margin-bottom: 0;
-    margin-top: 10px;
   }
 }
