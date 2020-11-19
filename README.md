@@ -32,6 +32,7 @@ Additional description about the project and its features.
 ## Built With
 - HTML
 - CSS
+- Vanila JavaScript
 - Linters
 
 ## Live Demo
