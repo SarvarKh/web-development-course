@@ -467,12 +467,16 @@ header {
   .card {
     display: flex;
     flex-direction: column;
-    min-height: 220px;
+    min-height: 240px;
     text-align: center;
   }
 
   .card-name {
     margin: 15px 0;
+  }
+
+  .card > i {
+    font-size: 36px;
   }
 
   .bottom-title {
@@ -592,7 +596,7 @@ header {
   }
 
   .card {
-    min-height: 180px;
+    min-height: 220px;
   }
 }
 
