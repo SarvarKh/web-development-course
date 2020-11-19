@@ -411,6 +411,26 @@ footer {
   .btn {
     font-size: 16px;
   }
+
+  .com-logo {
+    background: url("../../assets/images/logo-summit-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 10px;
+    height: 24px;
+  }
+
+  .com-text {
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+
+  .flex-container-footer {
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 1200px) {  
