@@ -369,8 +369,6 @@ table th {
   }
 
   .checkbox-container {
-    display: flex;
-    justify-content: space-around;
     padding: 20px;
     font-size: 14px;
   }
@@ -412,5 +410,46 @@ table th {
     font-weight: 200;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
+  }
+}
+
+@media only screen and (min-width: 1200px) {  
+  .top-nav {
+    font-size: 16px;
+  }
+
+  .bottom-nav {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 34px;
+    margin-top: 70px;
+  }
+
+  .step-h {
+    font-size: 18px;
+    width: max-content;
+    padding: 15px 30px;
+  }
+
+  .first-form {
+    font-size: 16px;
+    width: 900px;
+    margin: 40px 0;
+  }
+
+  .checkbox {
+    width: 900px;
+    margin: 40px 0;
+  }
+
+  .checkbox-container {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .step-2-title {
+    font-size: 18px;
   }
 }
