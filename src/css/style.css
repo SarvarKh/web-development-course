@@ -275,31 +275,6 @@ header {
   margin-left: 5px;
 }
 
-/* Dropdown More Button */
-.dropbtn-more {
-  background-color: #ec5242;
-  color: white;
-  padding: 15px 30px;
-  font-size: 16px;
-  cursor: pointer;
-  width: max-content;
-  display: block;
-  margin: 0 auto 20px auto;
-}
-
-.dropbtn-more:hover,
-.dropbtn-more:focus {
-  background-color: #3e4044;
-}
-
-.dropdown-content-more {
-  display: none;
-}
-
-.show-flex {
-  display: grid;
-}
-
 /* Footer */
 footer {
   padding: 30px 7%;
