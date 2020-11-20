@@ -36,9 +36,12 @@ Additional description about the project and its features.
 - Linters
 
 ## Live Demo
-[Main page](https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/index.html)
-[Ticket page](https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/ticket.html)
-[About page](https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/about.html)
+ - [Main page](https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/index.html)
+ - [Ticket page](https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/ticket.html)
+ - [About page](https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/about.html)
+
+### Intro video
+- [YouTube](https://youtu.be/WM5HU8yONMs)
 
 ## Getting Started
 
