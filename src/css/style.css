@@ -654,6 +654,10 @@ footer {
     padding-left: 14%;
   }
 
+  .title {
+    font-size: 90px;
+  }
+
   .text-on-v {
     padding-bottom: 0;
   }
