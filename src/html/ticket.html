@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Ticket to FTP online summit</title>
+  <link rel="stylesheet" href="../css/ticket.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/ea61045147.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="hidden-desktop nav">
+        <div class="dropdown">
+          <i class="fas fa-bars dropbtn" onclick="myFunction()"></i>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="about.html">About</a>
+            <a href="#program">Program</a>
+            <a href="ticket.html">Join</a>
+            <a href="index.html">Sponsor</a>
+            <a href="ticket.html">Ticket</a>
+            <a href="index.html">News</a>
+          </div>
+        </div> 
+      </nav>
+      <nav class="hidden-mobile visible-mobile nav-desktop">
+        <div class="nav-container">
+          <div class="top-nav">
+            <ul class="flex-container">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  English
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  My Page
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Logout
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="bottom-nav">
+            <div class="flex-container">
+              <div class="brand">
+                <a href="index.html">
+                  <div class="logo"></div>
+                  <div class="brand-name">
+                    Full Stack Pro 2021<br>
+                    Web Development Course
+                  </div>
+                </a>
+              </div>
+              <ul class="flex-container-internal">
+                <li>
+                  <a href="about.html">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#program">
+                    Program
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Join
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html">
+                    Sponsor
+                  </a>
+                </li>
+                <li>
+                  <a href="ticket.html">
+                    Ticket
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html">
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a href="ticket.html" class="red-border" id="red-border">
+                    FSP Compaign
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- First section -->
+      <section class="first" id="program">
+        <h3 class="title">Select program</h3>
+        <div class="step-h">
+          <div class="step">• STEP 1</div>
+          <div>Please select the day when you want to join FTP program 2021</div>
+        </div>
+        <form action="#" class="first-form">
+          <table>
+            <tr>
+              <th>Program</th>
+              <th>Group 10</th>
+              <th>Group 5</th>
+              <th>Individual</th>
+            </tr>
+            <tr>
+              <td>Date</td>
+              <td>Jan 2021</td>
+              <td>Feb-2021</td>
+              <td>Jan-2021</td>
+            </tr>
+            <tr>
+              <td>Beginner</td>
+              <td class="prices">
+                <label>USD 50</label><br>
+                <input type="radio">
+              </td>
+              <td class="prices">
+                <label>USD 60</label><br>
+                <input type="radio">
+              </td>
+              <td class="prices">
+                <label>USD 100</label><br>
+                <input type="radio">
+              </td>
+            </tr>
+            <tr>
+              <td>Intermediate</td>
+              <td class="prices">
+                <label>USD 60</label><br>
+                <input type="radio">
+              </td>
+              <td class="prices">
+                <label>USD 70</label><br>
+                <input type="radio">
+              </td>
+              <td class="prices">
+                <label>USD 120</label><br>
+                <input type="radio">
+              </td>
+            </tr>
+            <tr>
+              <td>Advance</td>
+              <td class="prices shadow-bottom">
+                <label>USD 70</label><br>
+                <input type="radio">
+              </td>
+              <td class="prices shadow-bottom">
+                <label>USD 80</label><br>
+                <input type="radio">
+              </td>
+              <td class="prices">
+                <label>USD 150</label><br>
+                <input type="radio">
+              </td>
+            </tr>
+          </table> 
+        </form>
+      </section>
+      <div class="drop-down">
+        <i class="fas fa-caret-down orange"></i>
+      </div>
+
+      <!-- Second section -->
+      <section class="second">
+        <h3 class="title">Select Your Lunch</h3>
+        <div class="step-h">
+          <div class="step">• STEP 2</div>
+          <div>Please select your lunch for selected day. There will be no further coasts for the lunch.</div>
+        </div>
+        <form action="#" class="second-form">
+          <div class="checkbox group-10">
+            <h4 class="step-2-title">Group-10</h4>
+            <div class="checkbox-container">
+              <div>
+                <label>menu 1</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 2</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 3</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 4</label>
+                <input type="radio">
+              </div>
+            </div>
+          </div>
+          <div class="checkbox group-5">
+            <h4 class="step-2-title">Group-5</h4>
+            <div class="checkbox-container">
+              <div>
+                <label>menu 1</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 2</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 3</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 4</label>
+                <input type="radio">
+              </div>
+            </div>
+          </div>
+          <div class="checkbox individual">
+            <h4 class="step-2-title">Individual</h4>
+            <div class="checkbox-container">
+              <div>
+                <label>menu 1</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 2</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 3</label>
+                <input type="radio">
+              </div>
+              <div>
+                <label>menu 4</label>
+                <input type="radio">
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="button">
+          <a href="#" class="btn">Book your seat in the program</a>
+        </div>
+      </section>
+      <footer>
+        <div class="flex-container-footer">
+          <div class="com-logo">
+          </div>
+          <div class="com-text">
+            <h5>2020 Full Stack Pro Uzbekistan. Some Rights Reserved.</h5>
+            <p>The coding school / bootcamp for those who want to enter into IT career and change the world for the best.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  <!-- JS -->
+  <script src="../JavaScript/script.js"></script>
+</body>
+</html>

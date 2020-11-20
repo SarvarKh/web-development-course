@@ -1,0 +1,475 @@
+/* font-family: 'Cabin Condensed', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utilies */
+a {
+  text-decoration: none;
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+/* header */
+header {
+  position: relative;
+}
+
+.nav {
+  font-size: 25px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 25px;
+  color: #272a31;
+  z-index: 1;
+}
+
+.nav:hover {
+  opacity: 0.8;
+  color: #ec5242;
+}
+
+.visible-desktop {
+  display: none;
+}
+
+/* Dropdown bar */
+.dropbtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1f8;
+  font-size: 12px;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* First section */
+.container {
+  font-size: 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+.step-h {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.step {
+  color: #ec5242;
+  min-width: 50px;
+}
+
+.first {
+  font-family: 'Lato', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-form {
+  font-size: 8px;
+  border: 4px solid;
+  border-image: url(../../assets/images/tickets.jpg) 3% repeat;
+  min-width: 300px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #cecece;
+  color: black;
+  font-weight: 400;
+}
+
+.shadow-bottom {
+  box-shadow: 0 5px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.drop-down {
+  margin: 0 auto;
+  width: max-content;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.fa-caret-down {
+  position: absolute;
+  bottom: 4px;
+  padding: 10px;
+  background: url(../../assets/images/rhombus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* Second section */
+.second {
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox {
+  text-align: center;
+  width: 300px;
+  margin: 10px 0;
+  border: 2px solid #f0f0f0;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.step-2-title {
+  background-color: #f0f0f0;
+  padding: 5px 0;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #ec5242;
+  padding: 5px 15px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  padding: 15px 7%;
+  border-top: 2px solid #d3d3d3;
+}
+
+.flex-container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.com-logo {
+  width: 150px;
+  background: url("../../assets/images/logo-summit-03.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.com-text {
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+  font-size: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hidden-desktop {
+    display: none;
+  }
+
+  .visible-desktop {
+    display: block;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    padding: 0;
+  }
+
+  .visible-mobile {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* header */
+  .wrapper {
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+
+  .nav-desktop {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .nav-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .top-nav {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .flex-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  .flex-container a {
+    color: #fff;
+  }
+
+  .top-nav .flex-container {
+    background-color: #3e4044;
+    justify-content: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .flex-container li {
+    margin-right: 20px;
+  }
+
+  .bottom-nav {
+    font-size: 14px;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .bottom-nav .flex-container {
+    justify-content: space-between;
+  }
+
+  .flex-container-internal {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    color: #272a31;
+  }
+
+  .red-border {
+    border: 3px solid #ec5242;
+    padding: 3px;
+  }
+
+  #red-border {
+    color: #ec5242;
+  }
+
+  .flex-container-internal a {
+    color: #272a31;
+  }
+
+  .brand {
+    padding: 5px 0;
+    color: #272a31;
+    font-family: 'Cabin Condensed', sans-serif;
+    cursor: pointer;
+  }
+
+  .brand a {
+    display: flex;
+    color: #272a31;
+  }
+
+  .logo {
+    background: url(../../assets/images/logo-summit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 45px;
+    margin-right: 10px;
+  }
+
+  /* First section */
+  .first {
+    padding-bottom: 60px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  .step-h {
+    width: 70%;
+    margin: 5px 0;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .step {
+    width: 40px;
+    margin-right: 15px;
+    min-width: max-content;
+  }
+
+  .first-form {
+    font-size: 16px;
+    min-width: 600px;
+    margin: 20px 0;
+  }
+
+  .second-form {
+    margin: 20px 0;
+  }
+
+  .checkbox {
+    width: 600px;
+    margin: 20px 0;
+  }
+
+  .checkbox-container {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .step-2-title {
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .button {
+    margin-bottom: 20px;
+    padding: 15px 30px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .com-logo {
+    background: url("../../assets/images/logo-summit-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 10px;
+    height: 24px;
+  }
+
+  .com-text {
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+
+  .flex-container-footer {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .top-nav {
+    font-size: 16px;
+  }
+
+  .bottom-nav {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 34px;
+    margin-top: 70px;
+  }
+
+  .step-h {
+    font-size: 18px;
+    width: max-content;
+    padding: 15px 30px;
+  }
+
+  .first-form {
+    font-size: 16px;
+    width: 900px;
+    margin: 40px 0;
+  }
+
+  .checkbox {
+    width: 900px;
+    margin: 40px 0;
+  }
+
+  .checkbox-container {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .step-2-title {
+    font-size: 18px;
+  }
+}

@@ -1,1 +1,660 @@
 /* font-family: 'Cabin Condensed', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utilies */
+.orange {
+  color: #ec5242;
+}
+
+.special-grey {
+  color: #d3d3d3;
+}
+
+.special-black {
+  color: #272a31;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+/* header */
+.first {
+  background: #f8f7f7;
+}
+
+header {
+  position: relative;
+}
+
+.nav {
+  font-size: 25px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 25px;
+  color: #272a31;
+  z-index: 1;
+}
+
+.nav:hover {
+  opacity: 0.9;
+  color: #ec5242;
+}
+
+.visible-desktop {
+  display: none;
+}
+
+/* Dropdown bar */
+.dropbtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1f8;
+  font-size: 12px;
+  min-width: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* First page */
+.video-container {
+  position: relative;
+}
+
+.myVideo {
+  width: 100%;
+}
+
+.myV-src {
+  min-width: 100%;
+  position: absolute;
+  z-index: -2;
+}
+
+.gradient {
+  background: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.text-on-v {
+  position: absolute;
+  top: 18%;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.myV-title {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: 'Cabin Condensed', sans-serif;
+  background: url(../../assets/images/background-text-03.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.position-relative {
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.bordered {
+  border: 2px solid #fff;
+  padding: 10px;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.destination {
+  padding-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.date {
+  color: #272a31;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Second-section */
+.second {
+  background: url(../../assets/images/middle-background.jpg);
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.centered-title {
+  text-align: center;
+  margin-bottom: 35px;
+  padding-top: 30px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 5fr;
+  align-items: center;
+  width: 95%;
+}
+
+.card-name {
+  color: #ec5242;
+  font-weight: bolder;
+}
+
+.card > i {
+  font-size: 24px;
+}
+
+.card-description {
+  font-size: 12px;
+}
+
+.button {
+  margin: 30px 0;
+}
+
+.btn {
+  background-color: #ec5242;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+/* Third section */
+.third {
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+}
+
+.biggier-title {
+  font-size: 22px;
+}
+
+.third-card {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.author-img {
+  height: 100px;
+  box-shadow: -5px -5px 5px grey;
+}
+
+.third-card-text {
+  font-size: 12px;
+}
+
+.author {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.author-info {
+  color: #272a31;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+.more-dropdown {
+  border: 2px solid #d3d3d3;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.more-dropdown:hover {
+  background-color: lightgrey;
+}
+
+.fa-caret-down {
+  margin-left: 5px;
+}
+
+/* Footer */
+footer {
+  padding: 30px 7%;
+  background-color: #3e4044;
+  color: #fff;
+}
+
+.flex-container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.com-logo {
+  width: 200px;
+  background: url("../../assets/images/logo-summit-03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.com-text {
+  font-weight: 200;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .hidden-desktop {
+    display: none;
+  }
+
+  .visible-desktop {
+    display: block;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    padding: 0;
+  }
+
+  .visible-mobile {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* header */
+  .wrapper {
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    top: 80px;
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+
+  .nav-desktop {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .nav-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .top-nav {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .flex-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  .flex-container a {
+    color: #fff;
+  }
+
+  .top-nav .flex-container {
+    background-color: #3e4044;
+    justify-content: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .flex-container li {
+    margin-right: 20px;
+  }
+
+  .bottom-nav {
+    font-size: 14px;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .bottom-nav .flex-container {
+    justify-content: space-between;
+  }
+
+  .flex-container-internal {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    color: #272a31;
+  }
+
+  .red-border {
+    border: 3px solid #ec5242;
+    padding: 3px;
+  }
+
+  #red-border {
+    color: #ec5242;
+  }
+
+  .flex-container-internal a {
+    color: #272a31;
+  }
+
+  .brand {
+    padding: 5px 0;
+    color: #272a31;
+    font-family: 'Cabin Condensed', sans-serif;
+    cursor: pointer;
+  }
+
+  .brand a {
+    display: flex;
+    color: #272a31;
+  }
+
+  .logo {
+    background: url(../../assets/images/logo-summit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 45px;
+    margin-right: 10px;
+  }
+
+  /* First page */
+  .text-container {
+    padding-left: 7%;
+  }
+
+  .text-on-v {
+    padding-bottom: 0;
+  }
+
+  .destination {
+    font-size: 14px;
+  }
+
+  .date {
+    font-size: 1.2rem;
+  }
+
+  .position-relative {
+    top: 60%;
+    position: absolute;
+    margin-bottom: 0;
+  }
+
+  .bordered {
+    width: 550px;
+    font-size: 14px;
+  }
+
+  .myVideo {
+    width: 100%;
+  }
+
+  .myV-src {
+    min-width: auto;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .gradient {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .myV-title {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    width: 500px;
+  }
+
+  /* Second page */
+  .second {
+    padding-bottom: 50px;
+  }
+
+  .second-container {
+    flex-direction: row;
+    margin: 0 7%;
+    align-items: baseline;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    min-height: 240px;
+    text-align: center;
+  }
+
+  .card-name {
+    margin: 15px 0;
+  }
+
+  .card > i {
+    font-size: 36px;
+  }
+
+  .bottom-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #d3d3d3;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+
+  /* Third section | Featured Speakers */
+  .third-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin: 0 7%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .show-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin: 0 7%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #more-btn-hidden {
+    display: none;
+  }
+
+  .more-visible {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin: 0 7%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* Forth section */
+  .forth {
+    background-color: #272a31;
+    color: #d3d3d3;
+    font-size: 1.5rem;
+    padding: 20px 15%;
+  }
+
+  .forth-title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+
+  .forth-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-item {
+    text-align: center;
+    width: 120px;
+  }
+
+  .mozilla {
+    font-weight: 900;
+  }
+
+  .google {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+  }
+
+  .naver {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .daumk {
+    font-weight: 200;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    top: 100px;
+  }
+
+  .top-nav {
+    font-size: 16px;
+  }
+
+  .bottom-nav {
+    font-size: 20px;
+  }
+
+  .myV-title {
+    font-size: 44px;
+  }
+
+  .bordered {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 64px;
+    min-width: 800px;
+  }
+
+  .position-relative {
+    top: 70%;
+  }
+
+  .card {
+    min-height: 220px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  /* First page */
+  .text-container {
+    padding-left: 14%;
+  }
+
+  .title {
+    font-size: 90px;
+    width: 80%;
+  }
+
+  .text-on-v {
+    padding-bottom: 0;
+  }
+
+  .destination {
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .position-relative {
+    top: 65%;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .bordered {
+    width: 800px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
