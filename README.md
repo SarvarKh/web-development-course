@@ -66,7 +66,7 @@ Web browser (Chrome/Firefox)
 👤 **Sarvar Khalimov**
 
 - GitHub: [@SarvarKh](https://github.com/SarvarKh)
-- LinkedIn: [@Sarvar-Khalimov](https://www.linkedin.com/in/sarvar-khalimov-208797143/)
+- LinkedIn: [@Sarvar-Khalimov](https://www.linkedin.com/in/sarvar-khalimov/)
 
 
 ## 🤝 Contributing
@@ -87,6 +87,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) and [MIT](lic.url) licensed.
-Design idea of Creative Commons actual page by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- This project is [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) and [MIT](lic.url) licensed.
+- Design idea of Creative Commons actual page by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
