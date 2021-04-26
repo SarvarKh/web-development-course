@@ -5,30 +5,22 @@
 > Front End Project: Web Development Course based website to anounce about upcoming events and booking tickets for them. This is fully responsive project using animated background (video). 
 This is the capstone project of the HTML & CSS course of the Microverse
 
+![screenshot](assets/sreenshots/main_sm.png?raw=true)
+Main Mobile view
+
+![screenshot](assets/sreenshots/main_lg.png?raw=true)
+Main Desktop (lg) view
+
+![screenshot](assets/sreenshots/ticket_sm.png?raw=true)
+Ticket Mobile view
+
+![screenshot](assets/sreenshots/ticket_lg.png?raw=true)
+Ticket Desktop (lg) view
+
 **The project contains the following pages:**
 - main (index.html);
 - ticket (~.html);
 - about (~.html);
-
-Main Mobile view
-
-![screenshot](assets/sreenshots/main_sm.png?raw=true)
-
-
-Main Desktop (lg) view
-
-![screenshot](assets/sreenshots/main_lg.png?raw=true)
-
-Ticket Mobile view
-
-![screenshot](assets/sreenshots/ticket_sm.png?raw=true)
-
-
-Ticket Desktop (lg) view
-
-![screenshot](assets/sreenshots/ticket_lg.png?raw=true)
-
-Additional description about the project and its features.
 
 ## Built With
 - HTML
