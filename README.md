@@ -1,7 +1,8 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Web development course 
+# Web development course
+> Front End Project: Web Development Course based website to anounce about upcoming events and booking tickets for them. This is fully responsive project using animated background (video). 
 This is the capstone project of the HTML & CSS course of the Microverse
 
 **The project contains the following pages:**
